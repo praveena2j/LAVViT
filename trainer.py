@@ -7,7 +7,7 @@ from visualmodel import *
 from models.ASP import *
 from collections import defaultdict, OrderedDict
 from torch.cuda.amp import autocast,GradScaler
-from models.LAVISH import MMIL_Net
+from models.LAVViT import MMIL_Net
 #from drloss import cal_selfsupervised_loss
 
 def init_trainer(args):
